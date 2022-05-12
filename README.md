@@ -17,7 +17,7 @@ In this challenge, you will be writing tests for a contact form that has been bu
 
 As a developer, you will be writing tests for every component. As we've learned, tests are a very important part of programming. The tests you will write will help you feel confident in the code you push to production!
 
-***Make sure to complete your tasks one at a time and complete test each task before proceding forward.***
+**_Make sure to complete your tasks one at a time and complete test each task before proceding forward._**
 
 ## Instructions
 
@@ -33,24 +33,24 @@ As a developer, you will be writing tests for every component. As we've learned,
 
 ### Task 2: Project Requirements
 
-> *All of the work you will do today will be contained inside the ContactForm.test.js file. You will be tasked to write the code for at least 9 different tests on various parts of the ContactForm component. Please read the instructions for each test carefully.*
+> _All of the work you will do today will be contained inside the ContactForm.test.js file. You will be tasked to write the code for at least 9 different tests on various parts of the ContactForm component. Please read the instructions for each test carefully._
 
 #### Test Brainstorming
 
-* [ ] Run and play around with the form interface.
-* [ ] Write out a list of possible testcases for this application within Understanding-questions.md.
+- [ ] Run and play around with the form interface.
+- [ ] Write out a list of possible testcases for this application within Understanding-questions.md.
 
 #### Complete a case that tests if
 
-* [ ] the component renders the contact form component without errors.
-* [ ] the header h1 element exists. Include three asserts, if the header is in the document, if the heads is truthy, if the header has the correct test content.
-* [ ] the component renders ONE error message if the user enters less than 4 characters into the firstname field. Make sure to use async / await and the correct screen method to account for state change.
-* [ ] the component renders THREE error messages if the user submits without filling in any values.
-* [ ] the component renders ONE error message if the user submits without filling in the email field.
-* [ ] the component renders the text *"email must be a valid email address"* if an invalid email address is typed into the email field.
-* [ ] the component renders the text *"lastName is a required field"* the form is submitted without a last name.
-* [ ] the component renders the firstname, lastname and email text when submitted with valued fields and does **not** render a message value when one is not entered into the message field.
-* [ ] renders all fields when the user submits with valid text filled in for all fields.
+- [x] the component renders the contact form component without errors.
+- [x] the header h1 element exists. Include three asserts, if the header is in the document, if the heads is truthy, if the header has the correct test content.
+- [x] the component renders ONE error message if the user enters less than 4 characters into the firstname field. Make sure to use async / await and the correct screen method to account for state change.
+- [ ] the component renders THREE error messages if the user submits without filling in any values.
+- [ ] the component renders ONE error message if the user submits without filling in the email field.
+- [ ] the component renders the text _"email must be a valid email address"_ if an invalid email address is typed into the email field.
+- [ ] the component renders the text _"lastName is a required field"_ the form is submitted without a last name.
+- [ ] the component renders the firstname, lastname and email text when submitted with valued fields and does **not** render a message value when one is not entered into the message field.
+- [ ] renders all fields when the user submits with valid text filled in for all fields.
 
 ## Stretch goals
 
